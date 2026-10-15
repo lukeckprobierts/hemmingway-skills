@@ -1,0 +1,15 @@
+{
+  "name": "hemmingway",
+  "description": "Skills from Hemmingway (hemmingway.io)",
+  "owner": {
+    "name": "Hemmingway",
+    "email": "team@hemmingway.io"
+  },
+  "plugins": [
+    {
+      "name": "use-hemmingway",
+      "source": "./",
+      "description": "Humanize, rewrite, edit, proofread or check text with Hemmingway-1"
+    }
+  ]
+}

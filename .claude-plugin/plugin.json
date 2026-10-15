@@ -1,0 +1,14 @@
+{
+  "name": "use-hemmingway",
+  "version": "1.0.0",
+  "description": "Humanize, rewrite, edit, proofread, shorten or check any text with Hemmingway-1, the model built to write the way a person writes. Your agent hands over the text and gets back only the finished version. Includes setup for a Hemmingway API key.",
+  "author": {
+    "name": "Hemmingway",
+    "email": "team@hemmingway.io",
+    "url": "https://hemmingway.io"
+  },
+  "homepage": "https://hemmingway.io/docs/",
+  "repository": "https://github.com/lukeckprobierts/hemmingway-skills",
+  "license": "MIT",
+  "keywords": ["writing", "humanize", "humanizer", "rewrite", "proofread", "edit", "email", "tone", "hemmingway"]
+}
