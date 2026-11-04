@@ -10,7 +10,7 @@ OpenAI-compatible. Any OpenAI SDK works with two changes: the base URL and the k
 - Base URL: `https://hemmingway.io/v1`
 - Model: `hemmingway-27b` (the only one)
 - Header: `Authorization: Bearer hemmingway_live_...`
-- Price per million tokens: $0.24 input, $0.024 cached input, $0.90 output (thinking counts as output)
+- Price per million tokens: $0.72 input, $0.072 cached input, $2.70 output (thinking counts as output)
 - Limits: 8 requests at once per account, `max_tokens` up to 32,768 (thinking included), 4 MB per request
 
 ```bash

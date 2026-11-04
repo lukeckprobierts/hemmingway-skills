@@ -1,6 +1,6 @@
 {
   "name": "use-hemmingway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Humanize, rewrite, edit, proofread, shorten or check any text with Hemmingway-1, the model built to write the way a person writes. Your agent hands over the text and gets back only the finished version. Includes setup for a Hemmingway API key.",
   "author": {
     "name": "Hemmingway",
