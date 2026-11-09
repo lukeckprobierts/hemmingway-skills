@@ -573,7 +573,8 @@ HELP = {
 
 def main():
     p = argparse.ArgumentParser(prog="hemmingway.py", description="Humanize, edit, proofread or rewrite text with "
-                                "Hemmingway-1 (hemmingway.io). The text comes back on stdout; notes go to stderr.")
+                                "Hemmingway-1 (hemmingway.io). The text comes back on stdout; notes go to stderr.",
+                                epilog="Feedback or a problem? Run: python3 scripts/hemmingway.py feedback")
     sub = p.add_subparsers(dest="command", metavar="command")
     s = sub.add_parser("setup", help="save your API key and check it works")
     s.add_argument("key", nargs="?", help="the key (or paste it when asked, or pipe it in)")
