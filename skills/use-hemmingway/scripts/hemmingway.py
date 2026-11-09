@@ -573,10 +573,12 @@ HELP = {
 
 def main():
     p = argparse.ArgumentParser(prog="hemmingway.py", description="Humanize, edit, proofread or rewrite text with "
-                                "Hemmingway-1 (hemmingway.io). The text comes back on stdout; notes go to stderr.")
+                                "Hemmingway-1 (hemmingway.io). The text comes back on stdout; notes go to stderr.",
+                                epilog="Feedback or a problem? Run: python3 scripts/hemmingway.py feedback")
     sub = p.add_subparsers(dest="command", metavar="command")
     s = sub.add_parser("setup", help="save your API key and check it works")
     s.add_argument("key", nargs="?", help="the key (or paste it when asked, or pipe it in)")
+    sub.add_parser("feedback", help="get the feedback and problem-report link (no sign-in needed)")
     sub.add_parser("status", help="check the saved key and that Hemmingway answers")
     for name, h in HELP.items():
         m = sub.add_parser(name, help=h, description=h)
@@ -598,7 +600,9 @@ def main():
         p.print_help()
         return 2
     try:
-        if args.command == "setup":
+        if args.command == "feedback":
+            print("https://hemmingway.io/contact/?feedback=1&surface=cli")
+        elif args.command == "setup":
             cmd_setup(args)
         elif args.command == "status":
             cmd_status(args)
