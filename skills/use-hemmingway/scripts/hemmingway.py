@@ -601,7 +601,7 @@ def main():
         return 2
     try:
         if args.command == "feedback":
-            print("https://hemmingway.io/feedback/?surface=cli")
+            print("https://hemmingway.io/contact/?feedback=1&surface=cli")
         elif args.command == "setup":
             cmd_setup(args)
         elif args.command == "status":

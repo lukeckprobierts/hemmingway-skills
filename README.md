@@ -77,4 +77,4 @@ The skill is MIT. Hemmingway-1's weights are separate: open weights under CC BY-
 
 ## Feedback
 
-Report a problem or suggest an improvement at [Hemmingway feedback](https://hemmingway.io/feedback/?surface=cli), or run `python3 skills/use-hemmingway/scripts/hemmingway.py feedback`. This command works without an API key and does not submit your text.
+Report a problem or suggest an improvement at [Hemmingway feedback](https://hemmingway.io/contact/?feedback=1&surface=cli), or run `python3 skills/use-hemmingway/scripts/hemmingway.py feedback`. This command works without an API key and does not submit your text.
