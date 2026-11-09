@@ -74,3 +74,7 @@ To call the API from your own code, see [api.md](skills/use-hemmingway/api.md) a
 
 The skill is MIT. Hemmingway-1's weights are separate: open weights under CC BY-NC 4.0 on
 [Hugging Face](https://huggingface.co/Altworld/Hemmingway-1).
+
+## Feedback
+
+Report a problem or suggest an improvement at [Hemmingway feedback](https://hemmingway.io/feedback/?surface=cli), or run `python3 skills/use-hemmingway/scripts/hemmingway.py feedback`. This command works without an API key and does not submit your text.
